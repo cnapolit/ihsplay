@@ -40,7 +40,7 @@ jobs:
         uses: robinraju/release-downloader@v1.9
         with:
           repository: "openlgtv/buildroot-nc4"
-          latest: true
+          tag: "webos-b17b4cc"
           fileName: "arm-webos-linux-gnueabi_sdk-buildroot.tar.gz"
           out-file-path: "/tmp"
 
